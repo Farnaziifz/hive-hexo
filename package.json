@@ -1,0 +1,27 @@
+{
+  "name": "gullp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ff",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.15",
+    "gulp-connect": "^5.6.1",
+    "gulp-html": "^0.5.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "hexo-render-pug": "^2.0.0",
+    "path-root-regex": "^0.1.2",
+    "pug": "^2.0.3",
+    "replace-ext": "^1.0.0",
+    "user-home": "^2.0.0"
+  }
+}
