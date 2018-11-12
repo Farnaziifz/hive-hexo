@@ -2,14 +2,14 @@
 A minimalist theme for [Hexo](http://hexo.io)
 This theme is written with [Pug](http://pugjs.org)
 
-##Installation
+## Installation
 
-####Install
+#### Install
 ```
 npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap
 git clone https://github.com/farnaziifz/hexo-hive.git
 ```
-##Enable
+## Enable
 Modify `theme` setting in `_config.yml` to `hexo-hive`
 You can override the theme options using main `_config.yml`
 
@@ -30,12 +30,12 @@ footer:
     directory: /about-us
 ```
 
-##Update
+## Update
 ```
 cd themes/hexo-hive
 git pull
 ```
-###Requirment
+### Requirment
 test with the latest version of the following:
 
 |library| Min.Version|
@@ -44,5 +44,5 @@ test with the latest version of the following:
 |[Sass](http://sass-lang.com/) | 3.7.x |
 |[Pug](https://pugjs.org) | 2.0.x |
 
-##License
+## License
 MIT
