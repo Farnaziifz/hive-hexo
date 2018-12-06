@@ -31,6 +31,7 @@ mixin posts()
                             
 
                 .entry_point
+                    !=item.content.slice(0, 200) + ' ...'
                     !=item.excerpt
                     a.read-more(href=url_for(item.path))
                         != __('read_more')
